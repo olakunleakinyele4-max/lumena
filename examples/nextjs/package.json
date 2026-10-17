@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "next dev"
+    "dev": "node init && next dev"
   },
   "dependencies": {
     "@lumen/react": "workspace:*",

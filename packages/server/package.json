@@ -5,10 +5,10 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc",
+    "build": "node init && tsc",
     "clean": "rm -rf dist",
-    "dev": "node --watch dist/main.js",
-    "start": "node dist/main.js",
+    "dev": "node init && node --watch dist/main.js",
+    "start": "node init && node dist/main.js",
     "lint": "eslint src/",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
