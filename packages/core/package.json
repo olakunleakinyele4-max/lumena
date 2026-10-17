@@ -28,7 +28,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsc -p tsconfig.build.json",
+    "build": "node init && tsc -p tsconfig.build.json",
     "clean": "rm -rf dist",
     "lint": "eslint src/",
     "typecheck": "tsc --noEmit",

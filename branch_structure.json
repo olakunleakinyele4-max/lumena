@@ -1,0 +1,18 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "feat/issue-273-frontend-usenetworkhealth-hook-with-rpc-latency",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "feat/issue-273-frontend-usenetworkhealth-hook-with-rpc-latency": "main",
+    "main": null,
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "feat/issue-273-frontend-usenetworkhealth-hook-with-rpc-latency",
+    "origin"
+  ]
+}
