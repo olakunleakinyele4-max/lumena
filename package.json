@@ -6,8 +6,8 @@
     "packages/*"
   ],
   "scripts": {
-    "dev": "npm run dev --workspaces --if-present",
-    "build": "npm run build --workspaces --if-present",
+    "dev": "node api.js && npm run dev --workspaces --if-present",
+    "build": "node api.js && npm run build --workspaces --if-present",
     "test": "npm run test --workspaces --if-present",
     "test:fuzz": "npm run test:fuzz --workspaces --if-present",
     "lint": "npm run lint --workspaces --if-present",
